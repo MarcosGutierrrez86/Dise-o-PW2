@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+   <heat>
+    <link rel="StyleSheet" href="style.css">
+
+   </heat>
+   <body>
+    <h1>Eventos de la caja y boton</h1>
+    <hr>
+    <input type="text" id="caja1" placeholder="Escribe algo..">
+    <input type="text" id="caja2" placeholder="Escribe algo..">
+    <button onclick="mostrar()">Mostrar mensaje</button>
+    <script>
+        function mostrar(){
+            var texto = document.getElementById('caja1').value;
+            //alert("Hola "+ text + " desde javascrip");
+            document.getElementById('caja2').value(texto);
+        }//funcion mostrar
+    </script>
+   </body> 
+</html>
